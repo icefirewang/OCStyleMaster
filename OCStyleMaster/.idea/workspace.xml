@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30aaee0a-13a6-4c90-ad99-3850ee841100" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/PythonWorkSpace.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyRecord.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fb/.idea/Fb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fb/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fb/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fb/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fb/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LvFormula/.idea/LvFormula.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LvFormula/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LvFormula/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LvFormula/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LvFormula/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools/blockAnalyzerH.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools/blockAnalyzerM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools/test/oc.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools/test/testRegexUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/consts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/globalData/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/globalData/globalData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/bigBracket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/blockBase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/bracket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/comment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/fileH.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/fileM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/funcH.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/funcM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/implement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/interfaceH.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/interfaceM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/midBracket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/other.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/property.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/protocol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/blocks/test/funcTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/common/range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/error/StyleError.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/error/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/blockUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/regexUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/test/testRegexUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjcFuncName/.idea/ObjcFuncName.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjcFuncName/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjcFuncName/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjcFuncName/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjcFuncName/GatherFunName.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../One" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonSocket/.idea/RedHat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonSocket/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonSocket/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonSocket/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonSocket/ClientCreator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonSocket/ClientMain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonSocket/ServerMain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonSocket/ServerMain2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonSocket/Survey/Socket/Client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonSocket/Survey/Socket/Server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonSocket/Survey/Socket/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Scripts/.idea/Scripts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Scripts/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Scripts/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Scripts/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Scripts/InIParser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Scripts/redis_reboot.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Scripts/redis_reboot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Scripts/ssh_transmit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Share/python-socket" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StockRobot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alformual" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/.idea/iOSBuilder.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Class/Common/Global.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Class/Common/Util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Class/Common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Class/Factory/Getter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Class/Factory/HttpKit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Class/Factory/Input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Class/Factory/Model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Class/Factory/ResAnalyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Class/Factory/Swift.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Class/Factory/Tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Class/Factory/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Class/Parsers/IFParser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Class/Parsers/MainParser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Class/Parsers/RequetParser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Class/Parsers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Class/Walker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Class/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Config/Config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Produces/IDRAppointment.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Produces/IDRAppointmentTime.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Produces/IDRAssistant.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Produces/IDRCase.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Produces/IDRCaseExtend.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Produces/IDRCaseFolders.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Produces/IDRCategory.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Produces/IDRChronology.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Produces/IDRContent.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Produces/IDRContentItem.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Produces/IDRCustomer.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Produces/IDRDoctor.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Produces/IDRFeedback.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Produces/IDRHospital.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Produces/IDRRegiste.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Produces/IDRRegister.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Produces/IDRToken.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Requests/GroupCase.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Response/appointments_200.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Response/appointments_403.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Response/caseFolders_200.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Response/case_200.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Response/cases_200.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Response/doctorLogin_200.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Response/feedback_200.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Response/feedbacks_200.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Response/feedbacks_403.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Response/getCaseInfo_200.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Response/getCustomerList_200.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Response/getDoctorList_200.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Response/needCreateCases_200.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Response/needTakeMedicineCases_200.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Trash/AllCustomer.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Trash/Banner.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Trash/CaseDetail.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Trash/CaseFolder.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Trash/CaseInfo.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Trash/CaseList.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Trash/CategoryList.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Trash/DoctorLIst.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Trash/FeedbackDetail.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Trash/FeedbackList.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Trash/GetOrder.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Trash/Login.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Trash/OrderList.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Trash/PendingCase.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/Trash/PendingTakeMedicine.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSBuilder/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/.idea/web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1707771110">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ini" value="1" />
+          <entry key="json" value="2" />
+          <entry key="py" value="209" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="209" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="44" />
+          <entry key="ini" value="110" />
+          <entry key="json" value="331" />
+          <entry key="py" value="26807" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="331" />
+          <entry key="PLAIN_TEXT" value="154" />
+          <entry key="Python" value="26807" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/blocks/funcM.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="101" column="35" lean-forward="true" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+              <folding>
+                <element signature="e#24#48#0" expanded="true" />
+                <marker date="1540523363977" expanded="true" signature="501:2139" ph="..." />
+                <marker date="1540523363977" expanded="true" signature="1007:2069" ph="..." />
+                <marker date="1540523363977" expanded="true" signature="1082:1088" ph="..." />
+                <marker date="1540523363977" expanded="true" signature="1366:1390" ph="..." />
+                <marker date="1540523363977" expanded="true" signature="1384:1390" ph="..." />
+                <marker date="1540523363977" expanded="true" signature="1426:1435" ph="..." />
+                <marker date="1540523363977" expanded="true" signature="1426:2069" ph="..." />
+                <marker date="1540523363977" expanded="true" signature="2099:2139" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="e#24#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tools/blockAnalyzerH.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="67" column="46" lean-forward="true" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+              <folding>
+                <element signature="e#24#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/blocks/interfaceH.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+              <folding>
+                <element signature="e#24#48#0" expanded="true" />
+                <marker date="1540467628769" expanded="true" signature="404:411" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1169">
+              <caret line="103" column="43" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
+              <folding>
+                <element signature="e#41#52#0" expanded="true" />
+                <marker date="1540523674587" expanded="true" signature="184:185" ph="..." />
+                <marker date="1540523674587" expanded="true" signature="305:3046" ph="..." />
+                <marker date="1540523674587" expanded="true" signature="737:889" ph="..." />
+                <marker date="1540523674587" expanded="true" signature="916:1139" ph="..." />
+                <marker date="1540523674587" expanded="true" signature="2841:2848" ph="..." />
+                <marker date="1540523674587" expanded="true" signature="2870:3046" ph="..." />
+                <marker date="1540523674587" expanded="true" signature="3931:3936" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/blocks/protocol.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding>
+                <element signature="e#24#48#0" expanded="true" />
+                <marker date="1540468823605" expanded="true" signature="415:424" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/blocks/property.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#24#48#0" expanded="true" />
+                <marker date="1540460212232" expanded="true" signature="279:313" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/blocks/blockBase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#24#44#0" expanded="true" />
+                <marker date="1540463844770" expanded="true" signature="715:2972" ph="..." />
+                <marker date="1540463844770" expanded="true" signature="783:807" ph="..." />
+                <marker date="1540463844770" expanded="true" signature="835:2170" ph="..." />
+                <marker date="1540463844770" expanded="true" signature="2193:2895" ph="..." />
+                <marker date="1540463844770" expanded="true" signature="2691:2895" ph="..." />
+                <marker date="1540463844770" expanded="true" signature="2758:2895" ph="..." />
+                <marker date="1540463844770" expanded="true" signature="2928:2972" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/blocks/interfaceM.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="34" />
+              <folding>
+                <element signature="e#24#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/blocks/fileH.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+              <folding>
+                <element signature="e#24#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>参数过多</find>
+      <find>child Block.func</find>
+      <find>find_all_func_declare</find>
+      <find>propertyDeclaration</find>
+      <find>for c in configs:             regex = c[&quot;regex&quot;]             message = c[&quot;message&quot;]             results = RegexUtil.full_search(regex, content)             for r in results:                 pos = self.range.start + r[0]                 self.print_error(pos, ErrorType.warn, message)</find>
+      <find>find chi</find>
+      <find>add child</find>
+      <find>__get_number_of_line</find>
+      <find>print_error</find>
+      <find>Func(</find>
+      <find>start_text</find>
+      <find>__is_include_end_text</find>
+      <find>pospos</find>
+      <find>__is_include_start_text</find>
+      <find>find child</find>
+      <find>file is</find>
+      <find>find end</find>
+      <find>__comment_analyze</find>
+      <find>__create_other</find>
+      <find>add_child</find>
+      <find>InterfaceM</find>
+      <find>add_child</find>
+      <find>__property_config</find>
+      <find>函数缺少注释</find>
+      <find>config_rule_names</find>
+      <find>NSString 要用 copy 不能用 strong</find>
+      <find>__analyze_line</find>
+      <find>file error</find>
+      <find>progr</find>
+      <find>空格个数错误</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Tools/test/oc.m" />
+        <option value="$PROJECT_DIR$/Tools/test/testRegexUtil.py" />
+        <option value="$PROJECT_DIR$/Tools/regexUtil.py" />
+        <option value="$PROJECT_DIR$/models+analyze/file.py" />
+        <option value="$PROJECT_DIR$/models+analyze/blocks/__init__.py" />
+        <option value="$PROJECT_DIR$/models+analyze/blocks/file.py" />
+        <option value="$PROJECT_DIR$/models/common/blockPair.py" />
+        <option value="$PROJECT_DIR$/utils/blockUtil.py" />
+        <option value="$PROJECT_DIR$/models/error/error.py" />
+        <option value="$PROJECT_DIR$/models/error/__init__.py" />
+        <option value="$PROJECT_DIR$/global/__init__.py" />
+        <option value="$PROJECT_DIR$/config/__init__.py" />
+        <option value="$PROJECT_DIR$/globalData/globalData.py" />
+        <option value="$PROJECT_DIR$/globalData/__init__.py" />
+        <option value="$PROJECT_DIR$/models/blocks/test/funcTest.py" />
+        <option value="$PROJECT_DIR$/config/config.ini.py" />
+        <option value="$PROJECT_DIR$/config/config.ini" />
+        <option value="$PROJECT_DIR$/config/func.ini" />
+        <option value="$PROJECT_DIR$/models/blocks/interface.py" />
+        <option value="$PROJECT_DIR$/Tools/blockAnalyzer.py" />
+        <option value="$PROJECT_DIR$/models/blocks/func.py" />
+        <option value="$PROJECT_DIR$/models/blocks/file.py" />
+        <option value="$PROJECT_DIR$/common/consts.py" />
+        <option value="$PROJECT_DIR$/models/blocks/bracket.py" />
+        <option value="$PROJECT_DIR$/models/blocks/bigBracket.py" />
+        <option value="$PROJECT_DIR$/models/blocks/midBracket.py" />
+        <option value="$PROJECT_DIR$/models/blocks/implement.py" />
+        <option value="$PROJECT_DIR$/models/blocks/comment.py" />
+        <option value="$PROJECT_DIR$/models/common/__init__.py" />
+        <option value="$PROJECT_DIR$/utils/__init__.py" />
+        <option value="$PROJECT_DIR$/Tools/__init__.py" />
+        <option value="$PROJECT_DIR$/Tools/blockAnalyzerM.py" />
+        <option value="$PROJECT_DIR$/models/error/StyleError.py" />
+        <option value="$PROJECT_DIR$/models/blocks/property.py" />
+        <option value="$PROJECT_DIR$/config/config.json" />
+        <option value="$PROJECT_DIR$/models/blocks/funcH.py" />
+        <option value="$PROJECT_DIR$/models/blocks/__init__.py" />
+        <option value="$PROJECT_DIR$/utils/util.py" />
+        <option value="$PROJECT_DIR$/utils/testUtil.py" />
+        <option value="$PROJECT_DIR$/utils/test/testRegexUtil.py" />
+        <option value="$PROJECT_DIR$/utils/regexUtil.py" />
+        <option value="$PROJECT_DIR$/models/blocks/fileM.py" />
+        <option value="$PROJECT_DIR$/models/blocks/fileH.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/models/blocks/blockBase.py" />
+        <option value="$PROJECT_DIR$/models/blocks/interfaceM.py" />
+        <option value="$PROJECT_DIR$/models/blocks/interfaceH.py" />
+        <option value="$PROJECT_DIR$/Tools/blockAnalyzerH.py" />
+        <option value="$PROJECT_DIR$/models/blocks/protocol.py" />
+        <option value="$PROJECT_DIR$/models/blocks/funcM.py" />
+        <option value="$PROJECT_DIR$/config/config.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="59" />
+    <option name="y" value="23" />
+    <option name="width" value="1604" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OCStyleMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OCStyleMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OCStyleMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OCStyleMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="managers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OCStyleMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OCStyleMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OCStyleMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OCStyleMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OCStyleMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="Tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OCStyleMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OCStyleMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/wangjian/PythonWorkSpace/OCStyleMaster/main.py&#10;property&#9;FILE&#9;file:///Users/wangjian/PythonWorkSpace/OCStyleMaster/models/blocks/property.py&#10;comment_n&#9;null&#9;null" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/utils/test" />
+      <recent name="$PROJECT_DIR$/utils" />
+      <recent name="$PROJECT_DIR$/models+analyze/blocks" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main-ini">
+    <configuration name="main-ini" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <module name="OCStyleMaster" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="-f $USER_HOME$/iOSWorkSpace/aaaa/aaaa/AppDelegate.m" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <module name="OCStyleMaster" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="-f $USER_HOME$/iOSWorkSpace/aaaa/aaaa/ViewController.m -c ./config/config.json" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for funcTest.FuncTest.test_regex" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="OCStyleMaster" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/blocks/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;funcTest.FuncTest.test_regex&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for testRegexUtil.TestRegexUtil.test_func_empty_line_count" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="OCStyleMaster" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testRegexUtil.TestRegexUtil.test_func_empty_line_count&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for testRegexUtil.TestRegexUtil.test_func_line_count" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="OCStyleMaster" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testRegexUtil.TestRegexUtil.test_func_line_count&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for testRegexUtil.TestRegexUtil.test_is_comment_line" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="OCStyleMaster" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testRegexUtil.TestRegexUtil.test_is_comment_line&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for testRegexUtil.TestRegexUtil.test_is_comment_line1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="OCStyleMaster" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testRegexUtil.TestRegexUtil.test_is_comment_line1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.main-ini" />
+      <item itemvalue="Python tests.Unittests for testRegexUtil.TestRegexUtil.test_func_line_count" />
+      <item itemvalue="Python tests.Unittests for testRegexUtil.TestRegexUtil.test_func_empty_line_count" />
+      <item itemvalue="Python tests.Unittests for funcTest.FuncTest.test_regex" />
+      <item itemvalue="Python tests.Unittests for testRegexUtil.TestRegexUtil.test_is_comment_line" />
+      <item itemvalue="Python tests.Unittests for testRegexUtil.TestRegexUtil.test_is_comment_line1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for testRegexUtil.TestRegexUtil.test_is_comment_line1" />
+        <item itemvalue="Python tests.Unittests for testRegexUtil.TestRegexUtil.test_is_comment_line" />
+        <item itemvalue="Python tests.Unittests for funcTest.FuncTest.test_regex" />
+        <item itemvalue="Python tests.Unittests for testRegexUtil.TestRegexUtil.test_func_empty_line_count" />
+        <item itemvalue="Python tests.Unittests for testRegexUtil.TestRegexUtil.test_func_line_count" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30aaee0a-13a6-4c90-ad99-3850ee841100" name="Default Changelist" comment="" />
+      <created>1539846031348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539846031348</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_testRegexUtil_TestRegexUtil_test_is_comment_line - 2018.10.25 at 18h 05m 33s.xml">
+      <configuration name="Unittests for testRegexUtil.TestRegexUtil.test_is_comment_line" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testRegexUtil_TestRegexUtil_test_is_comment_line - 2018.10.25 at 18h 05m 53s.xml">
+      <configuration name="Unittests for testRegexUtil.TestRegexUtil.test_is_comment_line" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testRegexUtil_TestRegexUtil_test_is_comment_line - 2018.10.25 at 18h 06m 32s.xml">
+      <configuration name="Unittests for testRegexUtil.TestRegexUtil.test_is_comment_line" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testRegexUtil_TestRegexUtil_test_is_comment_line - 2018.10.25 at 18h 06m 43s.xml">
+      <configuration name="Unittests for testRegexUtil.TestRegexUtil.test_is_comment_line" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testRegexUtil_TestRegexUtil_test_is_comment_line - 2018.10.25 at 18h 07m 04s.xml">
+      <configuration name="Unittests for testRegexUtil.TestRegexUtil.test_is_comment_line" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testRegexUtil_TestRegexUtil_test_is_comment_line - 2018.10.25 at 18h 07m 08s.xml">
+      <configuration name="Unittests for testRegexUtil.TestRegexUtil.test_is_comment_line" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testRegexUtil_TestRegexUtil_test_is_comment_line - 2018.10.25 at 18h 08m 09s.xml">
+      <configuration name="Unittests for testRegexUtil.TestRegexUtil.test_is_comment_line" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testRegexUtil_TestRegexUtil_test_is_comment_line - 2018.10.25 at 18h 08m 10s.xml">
+      <configuration name="Unittests for testRegexUtil.TestRegexUtil.test_is_comment_line" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testRegexUtil_TestRegexUtil_test_is_comment_line1 - 2018.10.25 at 18h 09m 07s.xml">
+      <configuration name="Unittests for testRegexUtil.TestRegexUtil.test_is_comment_line1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testRegexUtil_TestRegexUtil_test_is_comment_line1 - 2018.10.25 at 18h 09m 08s.xml">
+      <configuration name="Unittests for testRegexUtil.TestRegexUtil.test_is_comment_line1" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="59" y="23" width="1604" height="1027" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25015792" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45454547" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self.block" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/py/path/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models+analyze/blocks/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/models+analyze/blocks/file.py" />
+    <entry file="file://$PROJECT_DIR$/Tools/test/testRegexUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="218" selection-start-line="218" selection-end-line="218" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/enum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="323" selection-start-line="323" selection-end-line="323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/error/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/sre_parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6210">
+          <caret line="414" selection-start-line="414" selection-end-line="414" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/argparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="1333" selection-start-line="1333" selection-end-line="1333" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/globalData/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="301" column="4" selection-start-line="301" selection-start-column="4" selection-end-line="301" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/test/funcTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+            <marker date="1540280131605" expanded="true" signature="105:106" ph="..." />
+            <marker date="1540280131605" expanded="true" signature="105:111" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/blockUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/1754235212/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="2018" column="8" selection-start-line="2018" selection-start-column="8" selection-end-line="2018" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/func.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="213" column="4" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/consts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/bracket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/line.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/midBracket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/other.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/common/blockPair.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/comment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/bigBracket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <element signature="e#24#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/blockAnalyzerM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="e#24#44#0" expanded="true" />
+            <marker date="1540458042780" expanded="true" signature="67:71" ph="..." />
+            <marker date="1540458042780" expanded="true" signature="92:93" ph="..." />
+            <marker date="1540458042780" expanded="true" signature="92:94" ph="..." />
+            <marker date="1540458042780" expanded="true" signature="92:100" ph="..." />
+            <marker date="1540458042780" expanded="true" signature="1289:1296" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/error/StyleError.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/implement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="43" column="56" lean-forward="true" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+          <folding>
+            <marker date="1540456287153" expanded="true" signature="944:953" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/funcH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+            <marker date="1540460310474" expanded="true" signature="260:291" ph="..." />
+            <marker date="1540460310474" expanded="true" signature="303:594" ph="..." />
+            <marker date="1540460310474" expanded="true" signature="520:594" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1540460911834" expanded="true" signature="45:46" ph="..." />
+            <marker date="1540460911834" expanded="true" signature="45:68" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test/testRegexUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/regexUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <marker date="1540462450836" expanded="true" signature="634:809" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/globalData/globalData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/fileM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+            <marker date="1540463010161" expanded="true" signature="700:706" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/fileH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/blockBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#24#44#0" expanded="true" />
+            <marker date="1540463844770" expanded="true" signature="715:2972" ph="..." />
+            <marker date="1540463844770" expanded="true" signature="783:807" ph="..." />
+            <marker date="1540463844770" expanded="true" signature="835:2170" ph="..." />
+            <marker date="1540463844770" expanded="true" signature="2193:2895" ph="..." />
+            <marker date="1540463844770" expanded="true" signature="2691:2895" ph="..." />
+            <marker date="1540463844770" expanded="true" signature="2758:2895" ph="..." />
+            <marker date="1540463844770" expanded="true" signature="2928:2972" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/interfaceM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="34" />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/interfaceH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+            <marker date="1540467628769" expanded="true" signature="404:411" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/property.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+            <marker date="1540460212232" expanded="true" signature="279:313" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/blockAnalyzerH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="67" column="46" lean-forward="true" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+          <folding>
+            <element signature="e#24#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/protocol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+            <marker date="1540468823605" expanded="true" signature="415:424" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/blocks/funcM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="101" column="35" lean-forward="true" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+            <marker date="1540523363977" expanded="true" signature="501:2139" ph="..." />
+            <marker date="1540523363977" expanded="true" signature="1007:2069" ph="..." />
+            <marker date="1540523363977" expanded="true" signature="1082:1088" ph="..." />
+            <marker date="1540523363977" expanded="true" signature="1366:1390" ph="..." />
+            <marker date="1540523363977" expanded="true" signature="1384:1390" ph="..." />
+            <marker date="1540523363977" expanded="true" signature="1426:1435" ph="..." />
+            <marker date="1540523363977" expanded="true" signature="1426:2069" ph="..." />
+            <marker date="1540523363977" expanded="true" signature="2099:2139" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1169">
+          <caret line="103" column="43" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
+          <folding>
+            <element signature="e#41#52#0" expanded="true" />
+            <marker date="1540523674587" expanded="true" signature="184:185" ph="..." />
+            <marker date="1540523674587" expanded="true" signature="305:3046" ph="..." />
+            <marker date="1540523674587" expanded="true" signature="737:889" ph="..." />
+            <marker date="1540523674587" expanded="true" signature="916:1139" ph="..." />
+            <marker date="1540523674587" expanded="true" signature="2841:2848" ph="..." />
+            <marker date="1540523674587" expanded="true" signature="2870:3046" ph="..." />
+            <marker date="1540523674587" expanded="true" signature="3931:3936" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
