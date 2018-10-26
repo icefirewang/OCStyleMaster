@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30aaee0a-13a6-4c90-ad99-3850ee841100" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/TestObj.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TestObj.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testMain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OCStyleMaster.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OCStyleMaster.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/blocks/blockBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/blocks/blockBase.py" afterDir="false" />
-    </list>
+    <list default="true" id="30aaee0a-13a6-4c90-ad99-3850ee841100" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +52,7 @@
     <session id="35782518">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -111,7 +103,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="942">
+            <state relative-caret-position="705">
               <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
@@ -341,16 +333,6 @@
               <item name="OCStyleMaster" type="b2602c69:ProjectViewProjectNode" />
               <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="OCStyleMaster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OCStyleMaster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -535,9 +517,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_testMain_TestMain_test_main - 2018.10.26 at 14h 20m 06s.xml">
-      <configuration name="Unittests for testMain.TestMain.test_main" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_testMain_TestMain_test_main - 2018.10.26 at 14h 21m 26s.xml">
       <configuration name="Unittests for testMain.TestMain.test_main" configurationId="tests" />
     </history-entry>
@@ -565,18 +544,20 @@
     <history-entry file="Unittests_for_testMain_TestMain_test_main - 2018.10.26 at 14h 39m 12s.xml">
       <configuration name="Unittests for testMain.TestMain.test_main" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_testMain_TestMain_test_main - 2018.10.26 at 14h 40m 56s.xml">
+      <configuration name="Unittests for testMain.TestMain.test_main" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="23" width="1604" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25015792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25015792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37540108" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45775402" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1016,7 +997,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="942">
+        <state relative-caret-position="705">
           <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
