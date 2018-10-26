@@ -27,7 +27,7 @@ class BlockBase:
 
     def add_child(self,child):
         self.children.append(child)
-        print("add_child  {}".format(child))
+        # print("add_child  {}".format(child))
 
 
     def analyze(self):
