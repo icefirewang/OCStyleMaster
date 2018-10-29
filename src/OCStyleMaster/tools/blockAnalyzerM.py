@@ -1,13 +1,10 @@
 # -*- coding:utf-8 -*-
 
-from common import *
-from models import *
+from OCStyleMaster.common import *
+from OCStyleMaster.tools import *
+from OCStyleMaster.models import *
 
-
-
-
-
-class BlockAnalyzerH:
+class BlockAnalyzerM:
 
     def __init__(self,block,analyzePos):
         self.block = block
@@ -18,9 +15,9 @@ class BlockAnalyzerH:
 
 
     def start(self):
-        # self.__clean_text()
         self.__prepare()
         self.__analzye()
+
 
 
 
@@ -36,12 +33,10 @@ class BlockAnalyzerH:
 
     def __valid_blocks(self):
         ret = [
-            Property,
-            InterfaceH,
+            InterfaceM,
             Comment_N,
             Comment_1,
-            Protocol,
-            FuncH,
+            Implement
         ]
         return ret
 
@@ -60,12 +55,11 @@ class BlockAnalyzerH:
         block = self.__create_block(cls, self.text, start)
         block.file = self.block.file
         block.parent = self.block
-        analyzer = BlockAnalyzerH(block,block.range.start+1)
+
+        analyzer = BlockAnalyzerM(block,block.range.start+1)
         analyzer.start()
         self.block.add_child(block)
         end = analyzer.block.range.end
-        if end == 0:
-            raise Exception("block no end {}".format(analyzer.block))
         pos = end + 1
         return pos
 
@@ -93,6 +87,20 @@ class BlockAnalyzerH:
                 # print("find end {} pos {}".format(self.block.type,pos))
                 break
             pos += 1
+        pass
+
+    def __comment_analyze(self):
+        buffer = ""
+        pos = self.block.range.start
+        if self.pair is not None:
+            pos += self.pair.header_len()
+        while pos < self.length-1:
+            c = self.text[pos]
+            buffer = buffer + c
+            if buffer.rfind("\n") != -1:
+                self.block.range.end = pos
+                return
+            pos+=1
 
 
 

@@ -1,10 +1,11 @@
 # -*- coding:utf-8 -*-
 
-from common import *
-from models.common import *
-from models.error import *
-from config import *
-from utils import *
+from OCStyleMaster.common import *
+from OCStyleMaster.models.common import *
+from OCStyleMaster.models.error import *
+from OCStyleMaster.config import *
+from OCStyleMaster.utils import *
+
 class BlockBase:
 
     def __init__(self,text,file=None):
@@ -55,8 +56,8 @@ class BlockBase:
                     self.add_error_obj(err)
 
     def check_func_comments(self):
-        import models.blocks.funcH as Func
-        import models.blocks.comment as Comment
+        import OCStyleMaster.models.blocks.funcH as Func
+        import OCStyleMaster.models.blocks.comment as Comment
         index = -1
         for c in self.children:
             index += 1

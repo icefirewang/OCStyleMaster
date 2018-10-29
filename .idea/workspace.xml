@@ -2,9 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b0a007a-1be5-49b6-b93b-41da060d1cef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCStyleMaster/tools/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCStyleMaster/utils/test/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OCStyleMaster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OCStyleMaster/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/.idea/OCStyleMaster.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/Tools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/tools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/Tools/blockAnalyzerH.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/tools/blockAnalyzerH.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/Tools/blockAnalyzerM.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/tools/blockAnalyzerM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/Tools/test/oc.m" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/tools/test/oc.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/Tools/test/testRegexUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/tools/test/testRegexUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/common/consts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/common/consts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/config/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/config/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/globalData/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/globalData/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/globalData/globalData.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/globalData/globalData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/managers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/bigBracket.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/bigBracket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/blockBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/blockBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/bracket.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/bracket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/comment.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/comment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/fileH.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/fileH.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/fileM.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/fileM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/funcH.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/funcH.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/funcM.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/funcM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/implement.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/implement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/interfaceH.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/interfaceH.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/interfaceM.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/interfaceM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/line.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/line.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/midBracket.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/midBracket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/other.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/other.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/property.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/property.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/protocol.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/protocol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/managers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/blocks/test/funcTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/test/funcTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/common/range.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/common/range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/error/StyleError.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/error/StyleError.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/models/error/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/error/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/test/TestObj.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/test/TestObj.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/test/TestObj.m" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/test/TestObj.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/test/testMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/test/testMain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/utils/blockUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/utils/blockUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/utils/regexUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/utils/regexUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/utils/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/utils/test/testRegexUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/utils/test/testRegexUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCStyleMaster/utils/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/OCStyleMaster/utils/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,54 +70,72 @@
     <session id="1707771110">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="h" value="1" />
+          <entry key="json" value="1" />
+          <entry key="m" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="1" />
+          <entry key="py" value="45" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="C++" value="1" />
+          <entry key="JSON" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="131" />
+          <entry key="py" value="601" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="131" />
+          <entry key="Python" value="601" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            <state relative-caret-position="630">
+              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/common/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/blocks/blockBase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -77,19 +149,50 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>src.</find>
+      <find>from src.</find>
+      <find>OCStyleMaster.</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/OCStyleMaster/models/blocks/test/funcTest.py" />
+        <option value="$PROJECT_DIR$/OCStyleMaster/config/config.py" />
+        <option value="$PROJECT_DIR$/OCStyleMaster/models/blocks/blockBase.py" />
+        <option value="$PROJECT_DIR$/OCStyleMaster/models/blocks/fileH.py" />
+        <option value="$PROJECT_DIR$/OCStyleMaster/models/blocks/fileM.py" />
+        <option value="$PROJECT_DIR$/OCStyleMaster/models/blocks/funcH.py" />
+        <option value="$PROJECT_DIR$/OCStyleMaster/models/blocks/funcM.py" />
+        <option value="$PROJECT_DIR$/OCStyleMaster/models/blocks/implement.py" />
+        <option value="$PROJECT_DIR$/OCStyleMaster/models/blocks/interfaceH.py" />
+        <option value="$PROJECT_DIR$/OCStyleMaster/models/blocks/interfaceM.py" />
+        <option value="$PROJECT_DIR$/OCStyleMaster/models/blocks/property.py" />
+        <option value="$PROJECT_DIR$/OCStyleMaster/models/blocks/protocol.py" />
+        <option value="$PROJECT_DIR$/OCStyleMaster/models/error/StyleError.py" />
+        <option value="$PROJECT_DIR$/OCStyleMaster/__init__.py" />
+        <option value="$PROJECT_DIR$/OCStyleMaster/Tools/blockAnalyzerM.py" />
+        <option value="$PROJECT_DIR$/OCStyleMaster/Tools/blockAnalyzerH.py" />
+        <option value="$PROJECT_DIR$/OCStyleMaster/main.py" />
+        <option value="$PROJECT_DIR$/src/OCStyleMaster/__init__.py" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/src/OCStyleMaster/main.py" />
+        <option value="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/fileH.py" />
+        <option value="$PROJECT_DIR$/src/OCStyleMaster/models/blocks/blockBase.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="170" />
-    <option name="y" value="43" />
+    <option name="x" value="62" />
+    <option name="y" value="51" />
     <option name="width" value="1632" />
     <option name="height" value="1027" />
   </component>
@@ -98,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,16 +209,32 @@
               <item name="OCStyleMaster" type="b2602c69:ProjectViewProjectNode" />
               <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OCStyleMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OCStyleMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="OCStyleMaster" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/wangjian/PythonWorkSpace/OCStyleMaster/setup.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -127,6 +247,29 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python">
+      <module name="OCStyleMaster" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/OCStyleMaster/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/OCStyleMaster" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OCStyleMaster/main.py" />
+      <option name="PARAMETERS" value="-f $PROJECT_DIR$/OCStyleMaster/test" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -142,7 +285,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="170" y="43" width="1632" height="1027" extended-state="0" />
+    <frame x="62" y="51" width="1632" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24953446" />
@@ -156,7 +299,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -167,21 +310,240 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/setup.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="30">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/main.py" />
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/blocks/test/funcTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/common/consts.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/config/config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/config/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/globalData/globalData.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/globalData/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/blocks/bracket.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/blocks/comment.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/blocks/fileM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/blocks/funcH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/blocks/funcM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/blocks/implement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/blocks/interfaceH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/blocks/interfaceM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/blocks/line.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/blocks/midBracket.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/blocks/other.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/blocks/property.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/blocks/protocol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/common/range.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/error/StyleError.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/test/TestObj.m">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/test/testMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/utils/blockUtil.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/utils/regexUtil.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/utils/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/tools/blockAnalyzerM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/tools/blockAnalyzerH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/src/ocstylemaster.egg-info/entry_points.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocstylemaster.egg-info/dependency_links.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/OCStyleMaster/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/OCStyleMaster/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/test/TestObj.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/blocks/fileH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        <state relative-caret-position="630">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/models/blocks/blockBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OCStyleMaster/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>

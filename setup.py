@@ -15,29 +15,39 @@
 
 """Setup script for OCStyleMaster."""
 
-from setuptools import setup, find_packages
 
 try:
-  from OCStyleMaster import setup
+    from setuptools import setup,find_packages
 except ImportError:
-  from distutils.core import setup
+    from distutils.core import setup
 
+PACKAGES=find_packages("./src/",exclude=[])
+print(PACKAGES)
 
 setup(name='ocstylemaster',
-      version='0.1',
+      version='0.1.5',
       description='Objective-C style checker',
       keywords=('pip','Objective-C','OC','style'),
       author='icefire_wang, Inc.',
       author_email = "icefire_wang@163.com",
+      # url="./",
       url='https://github.com/icefirewang/OCStyleMaster',
-      packages=find_packages(),
+      package_dir={'': "src"},
+        # packages =[ "OCStyleMaster",
+        #             "OCStyleMaster.common",
+        #             "OCStyleMaster.config",
+        #             "OCStyleMaster.managers",
+        #             "OCStyleMaster.models",
+        #             "OCStyleMaster.models.blocks",
+        #             "OCStyleMaster.models.common",
+        #             "OCStyleMaster.models.error",
+        #             "OCStyleMaster.tools",
+        #             "OCStyleMaster.utils"],
+      packages=PACKAGES,
       include_package_data=True,
-      install_requires=[
-
-      ],
       entry_points={
-        'console_scripts': [
-          'occ = OCStyleMaster.main:main'
-        ]
+          'console_scripts': [
+              'occ = OCStyleMaster.main:main'
+          ]
       },
 )

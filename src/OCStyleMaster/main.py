@@ -1,13 +1,15 @@
 # -*- coding:utf-8 -*-
+import os
+path = __file__
+projectPath = os.path.dirname(path)
+os.chdir(projectPath)
 
 import argparse
-from sys import argv
-from Tools import *
-from models import *
-from config import *
-from globalData import *
-from utils import *
-import os
+import traceback
+from OCStyleMaster.tools import *
+from OCStyleMaster.models import *
+from OCStyleMaster.utils import *
+
 
 
 def analyze_m_file(path):
@@ -36,6 +38,7 @@ def analyze_folder(path):
             except Exception as e:
                 print("file error {}".format(path))
                 print(e)
+                traceback.print_exc()
 
 
 def analyze_path(path):

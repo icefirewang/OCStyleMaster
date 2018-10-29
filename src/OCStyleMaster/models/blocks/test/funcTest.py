@@ -1,8 +1,7 @@
 # -*- coding:utf-8 -*-
 
 import unittest
-import re
-from utils import *
+
 
 class FuncTest(unittest.TestCase):
 

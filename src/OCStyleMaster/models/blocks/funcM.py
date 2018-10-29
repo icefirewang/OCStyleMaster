@@ -3,7 +3,6 @@
 from .blockBase import *
 
 import re
-from utils import *
 
 
 class FuncM(BlockBase):

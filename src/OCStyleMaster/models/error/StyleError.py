@@ -1,7 +1,5 @@
 # -*- coding:utf-8 -*-
 
-from common import *
-
 class StyleError:
     def __init__(self,line,pos,type,message):
         self.type = type

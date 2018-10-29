@@ -1,7 +1,6 @@
 # -*- coding:utf-8 -*-
 
 from .blockBase import *
-from utils import *
 from .property import *
 
 class InterfaceM(BlockBase):

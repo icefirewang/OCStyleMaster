@@ -1,9 +1,7 @@
 # -*- coding:utf-8 -*-
 
 from .blockBase import *
-
 import re
-from utils import *
 
 
 class FuncH(BlockBase):

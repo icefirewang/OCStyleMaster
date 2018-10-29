@@ -1,8 +1,7 @@
 # -*- coding:utf-8 -*-
 
 from .blockBase import *
-from config import *
-from utils import *
+
 
 class Property(BlockBase):
 

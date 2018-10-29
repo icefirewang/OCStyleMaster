@@ -1,8 +1,8 @@
 # -*- coding:utf-8 -*-
 
 from .blockBase import *
-from utils import *
 import os
+
 
 class FileH(BlockBase):
 

@@ -2,7 +2,7 @@
 
 
 g_config = None
-from common import *
+from OCStyleMaster.common import *
 #from json.decoder import  JSONDecodeError
 class Config:
 
