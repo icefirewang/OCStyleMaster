@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-from .blockBase import *
+from OCStyleMaster.models.blocks.base.blockBase import *
 
 import re
 
@@ -69,10 +69,10 @@ class FuncM(BlockBase):
             subCount += nCount
         validLineCount = self.line_count() - subCount
         if 50 < validLineCount  and  validLineCount < 100:
-            err = self.create_error(self.range.start,ErrorType.suggest,"函数过长，超过60行")
+            err = self.create_error(self.range,ErrorType.suggest,"函数过长，超过60行")
             self.add_error_obj(err)
         elif 100 <= validLineCount:
-            err = self.create_error(self.range.start, ErrorType.warn, "函数过长，超过100行")
+            err = self.create_error(self.range, ErrorType.warn, "函数过长，超过100行")
             self.add_error_obj(err)
 
 
@@ -87,7 +87,7 @@ class FuncM(BlockBase):
         if m is not None and m.pos == 0:
             return # OK
         else:
-            err = self.create_error(self.range.start,ErrorType.warn,"函数头前空格个数错误")
+            err = self.create_error(self.range,ErrorType.warn,"函数头前空格个数错误")
             self.add_error_obj(err)
 
 
@@ -97,7 +97,7 @@ class FuncM(BlockBase):
         f = re.findall(regex,header)
         count = len(f)
         if count > 3:
-            err = self.create_error(self.range.start,ErrorType.suggest,"参数过多")
+            err = self.create_error(self.range,ErrorType.suggest,"参数过多")
             self.add_error_obj(err)
         pass
 

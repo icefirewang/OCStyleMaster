@@ -10,7 +10,9 @@
 
 @implementation TestObj
 
-
+/*
+        test comment*
+*/
 
 -(void)func1{
   // 函数头，减号后没有空格
@@ -54,12 +56,19 @@
   NSString *getValue = array[0]; //NG
   
   int a = 1;
-  if (a==1){ //NG == 号前后没有空格
+  int b= 1;
+  int c =1;
+  int d=1;
+  if (a==1) { //NG == 号前后没有空格
     
-  }else if(a ==2){ // NG
+  } else if(a ==2) { // NG
     
-  }else if (a== 3){ // NG
+  } else if (a== 3) { // NG
     
+  }
+
+  if(b == 1){ // NG  "{" 前无空格
+
   }
   
 }
@@ -93,6 +102,9 @@
 - (void)aVeryLongFunc
 { // NG func to long
   NSLog(@"1");
+    /*
+        test comment2
+    */
   NSLog(@"1");
   NSLog(@"1");
   NSLog(@"1");

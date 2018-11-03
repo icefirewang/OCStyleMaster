@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-from .blockBase import *
+from OCStyleMaster.models.blocks.base.blockBase import *
 import re
 
 

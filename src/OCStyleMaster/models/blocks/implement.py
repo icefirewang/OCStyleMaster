@@ -1,6 +1,5 @@
 # -*- coding:utf-8 -*-
 
-from .blockBase import *
 from .funcM import *
 
 
@@ -32,7 +31,7 @@ class Implement(BlockBase):
         markCount = len(finds)
         needCount = int(self.funcCount/5)-1
         if markCount < needCount:
-            err = self.create_error(self.range.start,ErrorType.suggest,"是否没有足够的program mark宏将函数分组")
+            err = self.create_error(self.range,ErrorType.suggest,"是否没有足够的program mark宏将函数分组")
             self.add_error_obj(err)
 
 
@@ -40,12 +39,14 @@ class Implement(BlockBase):
 
     def __get_all_funcs(self):
         content = self.content()
+        content = RegexUtil.replace_all_comment_with_space(content)
         regex = "\n[-+]\s*\(.*\)[A-z_]+[A-z0-9_]*[^\{]*{"
         ranges = RegexUtil.full_search(regex,content)
         self.funcCount = len(ranges)
         for r in ranges:
             start = r[0]+1
             end = r[1]
+            t = self.file.line_pos(start)
             bodyStart,bodyEnd = BlockUtil.get_block_end_pos(content,"{","}",start)
             func = FuncM(self.text)
             func.bodyStart = self.range.start + bodyStart

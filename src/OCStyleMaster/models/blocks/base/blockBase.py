@@ -5,6 +5,7 @@ from OCStyleMaster.models.common import *
 from OCStyleMaster.models.error import *
 from OCStyleMaster.config import *
 from OCStyleMaster.utils import *
+from OCStyleMaster.globalData import *
 
 class BlockBase:
 
@@ -39,6 +40,8 @@ class BlockBase:
         return []
 
     def analyze_by_config(self):
+        GlobalData().get_config()
+
         for name in self.__class__.config_rule_names():
             rules = config().get_rules(name)
             if rules is None:
@@ -50,9 +53,11 @@ class BlockBase:
                 if "type" in r:
                     type = r["type"]
                 results = RegexUtil.full_search(regex, self.content())
-                for r in results:
-                    pos = self.range.start + r[0]
-                    err = self.create_error(pos, type, message)
+                for result in results:
+                    start = self.range.start + result[0]
+                    end = self.range.start + result[1]
+                    range = Range(start,end)
+                    err = self.create_error(range, type, message)
                     self.add_error_obj(err)
 
     def check_func_comments(self):
@@ -64,12 +69,12 @@ class BlockBase:
             if isinstance(c, Func.FuncH) == False:
                 continue
             if index == 0:
-                err = self.create_error(c.range.start, ErrorType.error, "函数缺少注释")
+                err = self.create_error(c.range, ErrorType.error, "函数缺少注释")
                 self.add_error_obj(err)
                 continue
             pre = self.children[index - 1]
             if isinstance(pre, Comment.Comment_N) == False:
-                err = self.create_error(c.range.start, ErrorType.error, "函数缺少注释")
+                err = self.create_error(c.range, ErrorType.error, "函数缺少注释")
                 self.add_error_obj(err)
                 continue
 
@@ -80,6 +85,7 @@ class BlockBase:
         :return:
         """
         linePoses = self.file.linePoses
+
         index = 0
         for p in linePoses:
             if p >= pos:
@@ -100,14 +106,24 @@ class BlockBase:
         return None
 
 
-    def create_error(self,pos,type,message):
-        line, linePos = self.line_pos(pos)
-        line += 1
-        err = StyleError(line, linePos, type, message)
+    def create_error(self,range,type,message):
+        """
+        创建一个 error
+        :param offset:  fileOffset
+        :param type:  类型
+        :param message:  消息
+        :return:
+        """
+        err = StyleError(self.file,range.start,range.end,type,message)
         return err
 
 
     def add_error_obj(self,err):
+        """
+        将错误，添加到file数组中
+        :param err:
+        :return:
+        """
         self.file.errors.append(err)
 
 

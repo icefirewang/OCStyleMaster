@@ -1,6 +1,5 @@
 # -*- coding:utf-8 -*-
 
-from .blockBase import *
 from .property import *
 
 class InterfaceH(BlockBase):

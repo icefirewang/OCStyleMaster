@@ -79,6 +79,8 @@ class BlockAnalyzerM:
                     pos = newPos
                     buffer = ""
                     continue
+            else:
+                pass
 
             # 找block 尾部
             index = self.__is_include_end_text(buffer)
@@ -87,20 +89,20 @@ class BlockAnalyzerM:
                 # print("find end {} pos {}".format(self.block.type,pos))
                 break
             pos += 1
-        pass
 
-    def __comment_analyze(self):
-        buffer = ""
-        pos = self.block.range.start
-        if self.pair is not None:
-            pos += self.pair.header_len()
-        while pos < self.length-1:
-            c = self.text[pos]
-            buffer = buffer + c
-            if buffer.rfind("\n") != -1:
-                self.block.range.end = pos
-                return
-            pos+=1
+
+    # def __comment_analyze(self):
+    #     buffer = ""
+    #     pos = self.block.range.start
+    #     if self.pair is not None:
+    #         pos += self.pair.header_len()
+    #     while pos < self.length-1:
+    #         c = self.text[pos]
+    #         buffer = buffer + c
+    #         if buffer.rfind("\n") != -1:
+    #             self.block.range.end = pos
+    #             return
+    #         pos+=1
 
 
 
@@ -115,6 +117,14 @@ class BlockAnalyzerM:
                 ret = (m,cls)
                 return ret
         return None
+
+
+    def __replace_comment_with_space(self,text):
+        regex = "//.*/n"
+        results = RegexUtil.full_search(regex,text)
+        for result in results:
+            print(result)
+
 
 
     def __is_include_end_text(self,text):

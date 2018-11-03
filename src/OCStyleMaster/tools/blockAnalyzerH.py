@@ -49,7 +49,6 @@ class BlockAnalyzerH:
         cls = find[1]
         # print("find child {}".format(cls))
         # 分析 block
-        span = m.span(0)
         len = m.end(0) - m.start(0) - 1
         start = pos - len
         block = self.__create_block(cls, self.text, start)

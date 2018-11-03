@@ -23,6 +23,7 @@ class AnalyzeType(Enum):
     hfile = 3 # .h 文佳
 
 class ErrorType(Enum):
-    error = "error"
-    warn = "warn"
-    suggest = "suggest"
+    suggest = 1
+    warn = 2
+    error = 3
+

@@ -63,3 +63,42 @@ class RegexUtil:
         return ret
 
 
+    @staticmethod
+    def replace_all_comment_with_space(text):
+        regex = "//[^\n]*\n"
+        results = RegexUtil.full_search(regex,text)
+        ret = text
+        for r in results:
+            start = r[0]
+            end = r[1]-1
+            len = end - start
+            space = "".ljust(len)
+            ret = ret[:start]+space+ret[end:]
+
+
+        offset = 0
+        while(True):
+            r = RegexUtil.get_comment_n_range(ret,offset)
+            if r is None:
+                break
+            start = r[0]
+            end = r[1]
+            len = end - start
+            toReplace = ""
+            for index in range(len):
+                if ret[index+start] != "\n":
+                    toReplace+=" "
+                else:
+                    toReplace+="\n"
+            ret = ret[:start]+toReplace+ret[end:]
+        return ret
+
+
+    @staticmethod
+    def get_comment_n_range(text,offset=0):
+        start = text.find("/*",offset)
+        if start == -1:
+            return None
+        end = text.find("*/",start)+2
+        return (start,end)
+
