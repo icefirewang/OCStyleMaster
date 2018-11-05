@@ -1,5 +1,5 @@
 # OCStyleMaster
-一个检查Objective-C 代码规范的工具 **Python3 编写**
+一个检查Objective-C 代码规范的工具 **Python3** 编写
 
 ## 安装
 ```
