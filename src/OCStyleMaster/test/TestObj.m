@@ -8,6 +8,15 @@
 
 #import "TestObj.h"
 
+
+@interface TestObj(){
+
+}
+
+@property (nonatomic,strong) NSString *string; //  NG string use strong
+
+@end
+
 @implementation TestObj
 
 /*

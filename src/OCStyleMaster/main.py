@@ -62,7 +62,6 @@ def analyze_path(path):
     :return:
     """
     extension = Util.extension(path)
-    print("file path {}".format(path))
     if extension == ".m":
         analyze_m_file(path)
     elif extension == ".h":
@@ -119,14 +118,7 @@ def main():
         GlobalData()
 
     analyze_path(filePath)
-    GlobalData().close_file_handle()
     print("DONE !!!")
-
-
-
-
-
-
 
 
 

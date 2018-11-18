@@ -33,6 +33,7 @@ class BlockAnalyzerM:
 
     def __valid_blocks(self):
         ret = [
+            Property,
             InterfaceM,
             Comment_N,
             Comment_1,

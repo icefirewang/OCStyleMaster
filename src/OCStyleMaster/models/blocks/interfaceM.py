@@ -15,7 +15,6 @@ class InterfaceM(BlockBase):
         self.__get_all_properties()
         for child in self.children:
             child.analyze()
-        pass
 
 
     def __get_all_properties(self):

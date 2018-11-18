@@ -36,29 +36,45 @@ class BlockBase:
         pass
 
     @classmethod
-    def config_rule_names(cls,self):
+    def config_rule_names(cls):
         return []
 
     def analyze_by_config(self):
         GlobalData().get_config()
-
+        defScore = config().defaultScore
         for name in self.__class__.config_rule_names():
             rules = config().get_rules(name)
+
             if rules is None:
                 continue
             for r in rules:
+
+                if "regex" not in r:
+                    print("缺少 规则")
+                    continue
+                if "message" not in r:
+                    print("缺少 错误信息")
+                    continue
+
                 regex = r["regex"]
                 message = r["message"]
+                max = 0 if not "max" in r else r["max"]  # 超过 max 才算有问题
+                score = defScore if "score" not in r else r["score"]  #  应扣分数
                 type = ErrorType.warn
                 if "type" in r:
                     type = r["type"]
                 results = RegexUtil.full_search(regex, self.content())
+                count = len(results)
+                if count <= max:
+                    continue
                 for result in results:
                     start = self.range.start + result[0]
                     end = self.range.start + result[1]
                     range = Range(start,end)
-                    err = self.create_error(range, type, message)
+                    err = self.create_error(range, type, message,score)
                     self.add_error_obj(err)
+                    if max > 0:
+                        break
 
     def check_func_comments(self):
         import OCStyleMaster.models.blocks.funcH as Func
@@ -106,7 +122,7 @@ class BlockBase:
         return None
 
 
-    def create_error(self,range,type,message):
+    def create_error(self,range,type,message,score=0):
         """
         创建一个 error
         :param offset:  fileOffset
@@ -114,7 +130,7 @@ class BlockBase:
         :param message:  消息
         :return:
         """
-        err = StyleError(self.file,range.start,range.end,type,message)
+        err = StyleError(self.file,range.start,range.end,type,message,score)
         return err
 
 

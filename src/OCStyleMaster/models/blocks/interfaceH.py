@@ -22,16 +22,16 @@ class InterfaceH(BlockBase):
 
 
 
-    def __get_all_properties(self):
-        regex = "@property .*;\s*\n"
-        ranges = RegexUtil.full_search(regex,self.content())
-        for r in ranges:
-            property = Property(self.text)
-            property.range.start = r[0] + self.range.start
-            property.range.end = r[1] + self.range.start
-            property.file = self.file
-            property.parent = self.parent
-            self.add_child(property)
+    # def __get_all_properties(self):
+    #     regex = "@property .*;\s*\n"
+    #     ranges = RegexUtil.full_search(regex,self.content())
+    #     for r in ranges:
+    #         property = Property(self.text)
+    #         property.range.start = r[0] + self.range.start
+    #         property.range.end = r[1] + self.range.start
+    #         property.file = self.file
+    #         property.parent = self.parent
+    #         self.add_child(property)
 
 
     @classmethod

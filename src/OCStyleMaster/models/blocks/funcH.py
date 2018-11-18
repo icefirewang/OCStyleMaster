@@ -13,7 +13,7 @@ class FuncH(BlockBase):
 
     @classmethod
     def config_rule_names(cls):
-        return ["funcH"]
+        return ["funcHead"]
 
     @classmethod
     def start_text(cls):

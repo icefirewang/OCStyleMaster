@@ -15,6 +15,8 @@ class Block(Enum):
     comment_n = 12 # 注释 多行
     other = 13 # 其它
     protocol = 14
+    funcHead = 15
+    funcBody = 16
 
 class AnalyzeType(Enum):
     line = 0 # 行

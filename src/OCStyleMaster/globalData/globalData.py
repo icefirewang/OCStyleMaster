@@ -12,7 +12,7 @@ class GlobalData:
         self._configPath = None
         self.targetPath = None
         self.outputPath = None
-        self.fileHandler = None
+
 
     def get_config(self):
         if self._configPath is not None:
@@ -31,27 +31,8 @@ class GlobalData:
             self._configPath = packagePath
         return self._configPath
 
-    def create_file_handle(self):
-        """
-        创建output文件句柄
-        :return:
-        """
-        if self.fileHandler is not None:
-            assert False
 
-        if self.outputPath is None:
-            return
-        else:
-            self.fileHandler = open(self.outputPath,"w")
 
-    def close_file_handle(self):
-        """
-        关闭句柄
-        :return:
-        """
-        if self.fileHandler is None:
-            return
-        self.fileHandler.close()
 
 
 def share():

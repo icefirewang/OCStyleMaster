@@ -31,7 +31,7 @@ class Implement(BlockBase):
         markCount = len(finds)
         needCount = int(self.funcCount/5)-1
         if markCount < needCount:
-            err = self.create_error(self.range,ErrorType.suggest,"是否没有足够的program mark宏将函数分组")
+            err = self.create_error(self.range,ErrorType.suggest,"是否没有足够的program mark宏将函数分组",10)
             self.add_error_obj(err)
 
 

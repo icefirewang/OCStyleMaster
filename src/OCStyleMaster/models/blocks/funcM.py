@@ -1,11 +1,15 @@
 # -*- coding:utf-8 -*-
 
 from OCStyleMaster.models.blocks.base.blockBase import *
+import importlib
+
 
 import re
 
 
 class FuncM(BlockBase):
+
+
 
     def __init__(self, text):
         super(FuncM, self).__init__(text)
@@ -13,12 +17,19 @@ class FuncM(BlockBase):
         self.bodyStart = 0
         self.bodyEnd = 0
         self._lineCount = -1
+        self.funcHead = None
+        self.funcBody = None
 
 
 
     def analyze(self):
-        self.__analyze_func_header()
-        self.__analyze_func_arg_count()
+        self.__get_func_head()
+        self.__get_func_body()
+
+
+        self.funcHead.analyze_by_config()
+        self.funcBody.analyze_by_config()
+        # self.__analyze_func_arg_count()
         self.__analyze_by_config()
         self.__analyze_body_line_count()
 
@@ -27,23 +38,28 @@ class FuncM(BlockBase):
         return self.content()[0:self.bodyStart]
 
 
-    # def __analyze_line(self):
-    #     lines = self.content().split("\n")
-    #     index = -1
-    #     for line in lines:
-    #         index += 1
-    #         if RegexUtil.is_comment_line(line):
-    #             continue
-    #         length = len(line)
-    #         if length > 120:
-    #             err = StyleError(index+1, 1, ErrorType.warn, "行过长，超过120字节")
-    #             self.add_error_obj(err)
-    #         else:
-    #             pass
+    def __get_func_head(self):
+        import OCStyleMaster.models.blocks.funcHead as FuncHead
+        funcHead = FuncHead.FuncHead(self.text)
+        funcHead.range = Range(start=self.range.start,end=self.bodyStart-1)
+        funcHead.file = self.file
+        self.funcHead = funcHead
+
+
+
+
+    def __get_func_body(self):
+        import OCStyleMaster.models.blocks.funcBody as FuncBody
+        funcBody = FuncBody.FuncBody(self.text)
+        funcBody.range = Range(start=self.range.start,end=self.range.end)
+        funcBody.file = self.file
+        self.funcBody = funcBody
+
+
 
     @classmethod
     def config_rule_names(cls):
-        return ["funcM"]
+        return []
 
     def line_count(self):
         if self._lineCount != -1:
@@ -55,10 +71,6 @@ class FuncM(BlockBase):
         return self._lineCount
 
 
-    @classmethod
-    def start_text(cls):
-        return ""
-
     def __analyze_body_line_count(self):
         regex = "\n[ \f\n\r\t\v]*\n{1,}"
         regex = re.compile(regex)
@@ -69,10 +81,10 @@ class FuncM(BlockBase):
             subCount += nCount
         validLineCount = self.line_count() - subCount
         if 50 < validLineCount  and  validLineCount < 100:
-            err = self.create_error(self.range,ErrorType.suggest,"函数过长，超过60行")
+            err = self.create_error(self.range,ErrorType.suggest,"函数过长，超过50行",5)
             self.add_error_obj(err)
         elif 100 <= validLineCount:
-            err = self.create_error(self.range, ErrorType.warn, "函数过长，超过100行")
+            err = self.create_error(self.range, ErrorType.warn, "函数过长，超过100行",20)
             self.add_error_obj(err)
 
 
@@ -81,23 +93,23 @@ class FuncM(BlockBase):
         self.analyze_by_config()
 
 
-    def __analyze_func_header(self):
-        regex = "^[-+] \(" # 检查函数头，是否有一个空格
-        m =  re.match(regex,self.content())
-        if m is not None and m.pos == 0:
-            return # OK
-        else:
-            err = self.create_error(self.range,ErrorType.warn,"函数头前空格个数错误")
-            self.add_error_obj(err)
+    # def __analyze_func_header(self):
+    #     regex = "^[-+] \(" # 检查函数头，是否有一个空格
+    #     m =  re.match(regex,self.content())
+    #     if m is not None and m.pos == 0:
+    #         return # OK
+    #     else:
+    #         err = self.create_error(self.range,ErrorType.warn,"函数头前空格个数错误")
+    #         self.add_error_obj(err)
 
 
-    def __analyze_func_arg_count(self):
-        regex = ":\("
-        header = self.header_content()
-        f = re.findall(regex,header)
-        count = len(f)
-        if count > 3:
-            err = self.create_error(self.range,ErrorType.suggest,"参数过多")
-            self.add_error_obj(err)
-        pass
+    # def __analyze_func_arg_count(self):
+    #     regex = ":\("
+    #     header = self.header_content()
+    #     f = re.findall(regex,header)
+    #     count = len(f)
+    #     if count > 3:
+    #         err = self.create_error(self.range,ErrorType.suggest,"参数过多")
+    #         self.add_error_obj(err)
+    #     pass
 

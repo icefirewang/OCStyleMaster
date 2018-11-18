@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 
 class StyleError:
-    def __init__(self,file,start,end,type,message):
+    def __init__(self,file,start,end,type,message,score = 0 ):
         self.type = type
         self._line = None
         self._linePos = None
@@ -9,6 +9,8 @@ class StyleError:
         self.file = file
         self.start = start
         self.end = end
+        score = float(score)
+        self.score = score
 
 
 
@@ -38,8 +40,8 @@ class StyleError:
         startLine = self.line_number() + 1
         startLinePos = self.line_pos()
 
-        endLine = self.file.line_pos(self.end)[0] + 1
-        endLinePos = self.file.line_pos(self.end)[1]
-        ret = "{} => begin [{}:{}]  end [{}:{}] : {}".format(self.type,startLine,startLinePos,endLine,endLinePos,self.message)
+        # endLine = self.file.line_pos(self.end)[0] + 1
+        # endLinePos = self.file.line_pos(self.end)[1]
+        ret = "{} => begin [{}:{}] : {}  -{}".format(self.type,startLine,startLinePos,self.message,self.score)
         return ret
 

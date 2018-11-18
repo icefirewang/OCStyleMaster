@@ -21,7 +21,8 @@ class File(BlockBase):
         self.range = Range(0,len(self.text))
         self.lineCount = 0
         self.linePoses = self.__get_line_poses()
-        self.errors = []
+        self.errors = []    # 错误
+        self.deduction = 0  # 减分
 
 
     def analyze(self):
@@ -97,17 +98,13 @@ class File(BlockBase):
         输出 错误
         :return:
         """
+        score = 100
         errors = sorted(self.errors,key = lambda obj:obj.start)
-        if GlobalData().fileHandler is None:
-            print("[{}]".format(self.filename))
-            for e in errors:
-                print(e)
-        else:
-            h = GlobalData().fileHandler
-            file = "[{}]\n".format(self.filename)
-            h.write(file)
-            for e in errors:
-                string = str(e) + "\n"
-                h.write(string)
-            h.flush()
+
+        print("[{}]".format(self.filename))
+        for e in errors:
+            print(e)
+            score = score - e.score
+
+        print("得分 {}".format(score))
 
