@@ -90,6 +90,33 @@ def create_output_file():
 
 
 
+def export_config(path):
+    """
+    导出默认配置文件
+    :param path:
+    :return:
+    """
+    import shutil
+    orgConfigPath = os.path.join(GlobalData().root(),"config","config.py")
+    targetPath = None
+    if os.path.isdir(path):
+        targetPath = os.path.join(path,"config.py")
+    elif os.path.isfile(path):
+        targetPath = path
+    else:
+        print("请输入正确路径")
+
+    parentPath = os.path.split(path)[0]
+    if os.path.exists(parentPath) == False:
+        os.makedirs(parentPath)
+
+    shutil.copyfile(orgConfigPath,targetPath)
+
+
+
+
+
+
 def main():
     """
     主入口函数
@@ -97,7 +124,7 @@ def main():
     """
     parser = argparse.ArgumentParser()
     parser.add_argument("--file","-f",help="要分析的文件，或文件夹，文件必须是 .m 或 .h 文件（必选）")
-    parser.add_argument("--output", "-o", help="分析结果要导出的文件路径（可选）")
+    parser.add_argument("--exportConfiguration","-e",help="导出默认配置")
     parser.add_argument("--config","-c",help="配置路径")
     args = parser.parse_args()
 
@@ -105,13 +132,18 @@ def main():
     root = os.path.split(__file__)[0]
     GlobalData()._root = root
 
+    configExportPath =  args.exportConfiguration
     filePath = args.file
-    if filePath is None:
-        print("请输入要分析的文件路径， -h 查看帮助")
+
+    if filePath is None and configExportPath is None:
+        print("-h 查看帮助")
+        return
+
+    if configExportPath is not None:
+        export_config(configExportPath)
         return
 
     GlobalData().targetPath = filePath
-    GlobalData().outputPath = args.output
     GlobalData()._configPath = args.config
 
     if create_output_file():

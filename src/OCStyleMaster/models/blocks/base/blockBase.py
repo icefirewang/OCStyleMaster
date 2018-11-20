@@ -40,10 +40,10 @@ class BlockBase:
         return []
 
     def analyze_by_config(self):
-        GlobalData().get_config()
-        defScore = config().defaultScore
+        config =  GlobalData().get_config()
+        defScore = config.defaultScore
         for name in self.__class__.config_rule_names():
-            rules = config().get_rules(name)
+            rules = config.get_rules(name)
 
             if rules is None:
                 continue

@@ -25,7 +25,7 @@ PACKAGES=find_packages("./src/",exclude=[])
 print(PACKAGES)
 
 setup(name='ocstylemaster',
-      version='0.1.5',
+      version='0.1.9',
       description='Objective-C style checker',
       keywords=('pip','Objective-C','OC','style'),
       author='icefire_wang, Inc.',

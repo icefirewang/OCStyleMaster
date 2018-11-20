@@ -4,6 +4,9 @@
 g_global = None
 import os
 import sys
+import shutil
+
+import importlib
 
 class GlobalData:
 
@@ -13,16 +16,49 @@ class GlobalData:
         self.targetPath = None
         self.outputPath = None
 
+        self.config  = None
+
 
     def get_config(self):
+        """
+        获取配置
+        :return:
+        """
+        if self.config is not None:
+            return self.config
+
         if self._configPath is not None:
-            sys.path.insert(0,self._configPath)
-        import config
-        ret = config.config()
-        return ret
+            self.__copy_customer_config()
+            self.config = self.__get_customer_config()
+        else:
+            self.config = self.__get_default_config()
+
+        return self.config
 
     def set_config_path(self,path):
         self._configPath = path
+
+
+    def __get_customer_config(self):
+        """
+        获取自定义配置
+        :return:
+        """
+        import OCStyleMaster.config.customerConfig as CustomerConfig
+        return CustomerConfig.Config()
+
+    def __get_default_config(self):
+        """
+        获取默认配置
+        :return:
+        """
+        import OCStyleMaster.config.config as Config
+        return Config.Config()
+
+    def __copy_customer_config(self):
+        targetPath = os.path.join(self.root(),"config","customerConfig.py")
+        sourcePath = self._configPath
+        return shutil.copyfile(sourcePath,targetPath)
 
 
     def config_path(self):
@@ -32,6 +68,8 @@ class GlobalData:
         return self._configPath
 
 
+    def root(self):
+        return self._root
 
 
 
