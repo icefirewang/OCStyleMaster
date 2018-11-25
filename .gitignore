@@ -106,3 +106,4 @@ venv.bak/
 /build
 /dist
 workspace.xml
+/.idea/modules.xml

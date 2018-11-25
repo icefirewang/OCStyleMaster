@@ -175,47 +175,52 @@ $occ -f (the path to your .m of .h file or folder)
 #### 检查结果
 
 ```
-testMain.py .[TestObj.m] Function Count : 11; Average Function Line Count 14.82
-ErrorType.suggest => [11:1] : 是否没有足够的program mark宏将函数分组
-ErrorType.warn => [17:1] : 函数头前空格个数错误
-ErrorType.warn => [17:12] : { 前缺少空格
-ErrorType.warn => [22:1] : 函数头前空格个数错误
-ErrorType.warn => [22:12] : { 前缺少空格
-ErrorType.suggest => [28:1] : 参数过多
-ErrorType.warn => [31:26] : { 前缺少空格
-ErrorType.warn => [36:23] : *号前缺少空格
-ErrorType.warn => [48:9] : 不要直接使用 addObject
-ErrorType.warn => [49:8] : 不要直接使用 setObject: forKey:
-ErrorType.warn => [50:8] : 不要直接使用 setObject: forKey:
-ErrorType.warn => [52:9] : 不要直接使用 removeObjectForKey
-ErrorType.warn => [53:3] : 不要直接使用 dict[key] = value
-ErrorType.warn => [54:3] : 不要直接使用 dict[key] = value
-ErrorType.warn => [56:3] : 不要直接使用 dict[key] = value
-ErrorType.warn => [57:1] : 不要直接使用 array[index] 如果是 C 数组，请忽略
-ErrorType.warn => [60:7] : =号前缺少空格
-ErrorType.warn => [61:8] : =号后缺少空格
-ErrorType.warn => [62:7] : =号前缺少空格
-ErrorType.warn => [62:7] : =号后缺少空格
-ErrorType.warn => [63:6] : ==前缺少空格
-ErrorType.warn => [63:7] : ==后缺少空格
-ErrorType.warn => [65:14] : ==后缺少空格
-ErrorType.warn => [67:13] : ==前缺少空格
-ErrorType.warn => [71:12] : { 前缺少空格
-ErrorType.warn => [71:22] : { 前缺少空格
-ErrorType.warn => [78:1] : 逻辑分支内为空，请加入 do nothing 注释
-ErrorType.warn => [82:1] : 函数头前空格个数错误
-ErrorType.warn => [83:1] : 逻辑分支内为空，请加入 do nothing 注释
-ErrorType.warn => [87:1] : 函数头前空格个数错误
-ErrorType.warn => [88:1] : 逻辑分支内为空，请加入 do nothing 注释
-ErrorType.warn => [92:1] : 函数头前空格个数错误
-ErrorType.warn => [93:1] : 逻辑分支内为空，请加入 do nothing 注释
-ErrorType.warn => [97:1] : 函数头前空格个数错误
-ErrorType.warn => [98:1] : 逻辑分支内为空，请加入 do nothing 注释
-ErrorType.warn => [103:1] : 函数过长，超过100行
-ErrorType.warn => [106:5] : *号前缺少空格
+[TestObj.m]
+ERROR => POS [16:1] : NSString 要用 copy 不能用 strong  -5.0
+SUGGEST => POS [20:1] : 是否没有足够的program mark宏将函数分组  -10.0
+WARN => POS [26:1] : 函数头前空格个数错误  -0.5
+WARN => POS [26:12] : { 前缺少空格  -0.5
+WARN => POS [31:1] : 函数头前空格个数错误  -0.5
+WARN => POS [31:12] : { 前缺少空格  -0.5
+WARN => POS [36:14] : 函数参数过多  -0.5
+WARN => POS [39:26] : { 前缺少空格  -0.5
+WARN => POS [44:23] : *号前缺少空格  -0.5
+ERROR => POS [56:9] : 不要直接使用 addObject  -3.0
+ERROR => POS [57:8] : 不要直接使用 setObject: forKey:  -3.0
+ERROR => POS [58:8] : 不要直接使用 setObject: forKey:  -3.0
+ERROR => POS [60:9] : 不要直接使用 removeObjectForKey  -3.0
+ERROR => POS [61:3] : 不要直接使用 dict[key] = value  -3.0
+ERROR => POS [62:3] : 不要直接使用 dict[key] = value  -3.0
+ERROR => POS [64:3] : 不要直接使用 dict[key] = value  -3.0
+ERROR => POS [65:1] : 不要直接使用 array[index] 如果是 C 数组，请忽略  -3.0
+WARN => POS [68:7] : =号前缺少空格  -0.5
+WARN => POS [69:8] : =号后缺少空格  -0.5
+WARN => POS [70:7] : =号前缺少空格  -0.5
+WARN => POS [70:7] : =号后缺少空格  -0.5
+WARN => POS [71:6] : ==前缺少空格  -0.5
+WARN => POS [71:7] : ==后缺少空格  -0.5
+WARN => POS [73:14] : ==后缺少空格  -0.5
+WARN => POS [75:13] : ==前缺少空格  -0.5
+WARN => POS [79:12] : { 前缺少空格  -0.5
+WARN => POS [79:22] : { 前缺少空格  -0.5
+WARN => POS [86:1] : 逻辑分支内为空，请加入 do nothing 注释  -1.0
+WARN => POS [90:1] : 函数头前空格个数错误  -0.5
+WARN => POS [91:1] : 逻辑分支内为空，请加入 do nothing 注释  -1.0
+WARN => POS [95:1] : 函数头前空格个数错误  -0.5
+WARN => POS [96:1] : 逻辑分支内为空，请加入 do nothing 注释  -1.0
+WARN => POS [100:1] : 函数头前空格个数错误  -0.5
+WARN => POS [101:1] : 逻辑分支内为空，请加入 do nothing 注释  -1.0
+WARN => POS [105:1] : 函数头前空格个数错误  -0.5
+WARN => POS [106:1] : 逻辑分支内为空，请加入 do nothing 注释  -1.0
+WARN => POS [111:1] : 函数过长，超过100行  -20.0
+WARN => POS [114:5] : *号前缺少空格  -0.5
+得分 25.0
 [TestObj.h]
-ErrorType.warn => [15:1] : NSString 要用 copy 不能用 strong
-ErrorType.error => [18:1] : 函数缺少注释
+ERROR => POS [15:1] : NSString 要用 copy 不能用 strong  -5.0
+ERROR => POS [18:1] : 函数缺少注释  -5.0
+ERROR => POS [20:1] : 函数缺少注释  -5.0
+WARN => POS [20:14] : 函数参数过多  -0.5
+得分 84.5
 DONE !!!
 ```
 

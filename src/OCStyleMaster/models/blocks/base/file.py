@@ -3,7 +3,7 @@
 from OCStyleMaster.models.blocks.base.blockBase import *
 import os
 from OCStyleMaster.globalData import *
-import colorama
+
 
 
 class File(BlockBase):
@@ -107,5 +107,5 @@ class File(BlockBase):
             print(e)
             score = score - e.score
 
-        print(colorama.Back.WHITE,"得分 {}".format(score),colorama.Back.RESET)
+        print("得分 {}".format(score))
 
