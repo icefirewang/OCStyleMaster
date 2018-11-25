@@ -9,9 +9,21 @@ $ pip install ocstylemaster
 
 
 ## 使用
+### 常规使用
 ```
 $occ -f (the path to your .m of .h file or folder)
 ```
+### 导出默认配置
+```
+$occ -e (the path to where you want to save)
+```
+### 使用您的配置进行检查
+```
+$occ -c (the config file path  you have changed) -f (the path to your .m of .h file or folder)
+
+```
+
+
 
 
 
