@@ -129,135 +129,39 @@ $occ -f (the path to your .m of .h file or folder)
 
 }
 
--(void)placeholderFunc2
+-(void)placeholderFunc2 // NG need blank after "-"
 {
 
 }
 
--(void)placeholderFunc3
+-(void)placeholderFunc3 // NG need blank after "-"
 {
 
 }
 
--(void)placeholderFunc4
+-(void)placeholderFunc4 // NG need blank after "-"
 {
 
 }
 
--(void)placeholderFunc5
+-(void)placeholderFunc5 // NG need blank after "-"
 {
 
 }
 
 
-- (void)aVeryLongFunc
+- (void)aVeryLongFunc // NG need blank after "-"
 { // NG func to long
   NSLog(@"1");
     /*
         test comment2
     */
   NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
-  NSLog(@"1");
+  .
+  .
+  .
+  .
+  .
   NSLog(@"1");
 }
 

@@ -105,3 +105,4 @@ venv.bak/
 .mypy_cache/
 /build
 /dist
+workspace.xml
