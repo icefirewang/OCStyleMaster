@@ -15,25 +15,28 @@ class GlobalData:
         self._configPath = None
         self.targetPath = None
         self.outputPath = None
+        self._config  = None
 
-        self.config  = None
 
 
-    def get_config(self):
+    def __remove_old_customer_config(self):
+        pass
+
+    def config(self):
         """
         获取配置
         :return:
         """
-        if self.config is not None:
-            return self.config
+        if self._config is not None:
+            return self._config
 
         if self._configPath is not None:
             self.__copy_customer_config()
-            self.config = self.__get_customer_config()
+            self._config = self.__get_customer_config()
         else:
-            self.config = self.__get_default_config()
+            self._config = self.__get_default_config()
 
-        return self.config
+        return self._config
 
     def set_config_path(self,path):
         self._configPath = path

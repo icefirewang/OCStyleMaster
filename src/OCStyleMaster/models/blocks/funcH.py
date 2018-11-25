@@ -27,7 +27,7 @@ class FuncH(BlockBase):
 
     def analyze(self):
         self.analyze_by_config()
-        self.__analyze_func_arg_count()
+        # self.__analyze_func_arg_count()
 
 
     def __analyze_func_arg_count(self):

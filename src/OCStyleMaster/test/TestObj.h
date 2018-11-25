@@ -17,6 +17,11 @@
 
 - (void)func1; // NG func need comment
 
++ (void)func3:(NSString *)a
+        arg2:(NSString *)b
+        arg3:(NSString *)c
+        arg4:(NSString *)d;
+
 @end
 
 

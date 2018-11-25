@@ -1,5 +1,7 @@
 # -*- coding:utf-8 -*-
 
+from OCStyleMaster.common import *
+
 class StyleError:
     def __init__(self,file,start,end,type,message,score = 0 ):
         self.type = type
@@ -42,6 +44,16 @@ class StyleError:
 
         # endLine = self.file.line_pos(self.end)[0] + 1
         # endLinePos = self.file.line_pos(self.end)[1]
-        ret = "{} => begin [{}:{}] : {}  -{}".format(self.type,startLine,startLinePos,self.message,self.score)
+        error_string = self.error_string(self.type)
+        ret = "{} => POS [{}:{}] : {}  -{}".format(error_string,startLine,startLinePos,self.message,self.score)
         return ret
 
+
+    def error_string(self,type):
+        if type == ErrorType.suggest:
+            return "SUGGEST"
+        if type == ErrorType.error:
+            return "ERROR"
+        if type == ErrorType.warn:
+            return "WARN"
+        return "Unknown"

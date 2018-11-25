@@ -3,8 +3,8 @@
 
 
 """
-level 0 : suggest
-level 1 : warn
+level 1 : suggest
+level 2 : warn
 level 3 : error
 """
 
@@ -14,6 +14,8 @@ class Config:
         self.config = {}
         self.init_config()
         self.defaultScore = 0.5
+        self.defaultLevel = 1
+        self.headerFileLackComment = 5
 
 
 
@@ -125,42 +127,50 @@ class Config:
             {
                 "regex": "objectAtIndex:",
                 "message": "不要直接使用 objectAtIndex",
-                "score":"3",
+                "level": 3,
+                "score": "3",
             },
             {
                 "regex":" addObject:[^@]+.*]",
                 "message": "不要直接使用 addObject",
-                "score":"3"
+                "level": 3,
+                "score": "3"
             },
             {
                 "regex":" setObject:[^@].* forKey:.*\]",
                 "message": "不要直接使用 setObject: forKey:",
+                "level": 3,
                 "score": "3"
             },
             {
                 "regex": " setObject:.* forKey:[^@].*\]",
                 "message": "不要直接使用 setObject: forKey:",
-                "score": "3"
+                "score": "3",
+                "level":3
             },
             {
                 "regex":"[A-z_]+[A-z0-1_]*\[.*\] \s*=\s* [^@].*",
                 "message": "不要直接使用 dict[key] = value",
-                "score": "3"
+                "score": "3",
+                "level": 3,
             },
             {
                 "regex": "[A-z_]+[A-z0-1_]*\[[^@].*\] \s*=\s* .*",
                 "message": "不要直接使用 dict[key] = value",
-                "score": "3"
+                "score": "3",
+                "level": 3
             },
             {
                 "regex": ".*\s*=\s*.*[A-z_]+[A-z0-1_]*\[.*\]",
                 "message":"不要直接使用 array[index] 如果是 C 数组，请忽略",
-                "score": "3"
+                "score": "3",
+                "level": 3
             },
             {
                 "regex":"removeObjectForKey:",
                 "message":"不要直接使用 removeObjectForKey",
-                "score": "3"
+                "score": "3",
+                "level": 3
             }
 
         ]

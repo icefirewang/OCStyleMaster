@@ -8,17 +8,12 @@ level 1 : warn
 level 3 : error
 """
 
-
-
-g_config = None # 单例用
-
-
 class Config:
 
     def __init__(self):
         self.config = {}
         self.init_config()
-        self.defaultScore = 5
+        self.defaultScore = 0.5
 
 
 
@@ -29,7 +24,6 @@ class Config:
         :return:
         """
         self.config = {
-            # "funcH": self.rules_func_h(),
             "funcBody": self.rules_func_body(),
             "property": self.rules_property(),
             "funcDeclare":self.func_declare_config(),
@@ -46,11 +40,15 @@ class Config:
         return ret
 
     def rules_func_h(self):
+        """
+        头文件中的函数的规则配置
+        :return:
+        """
         ret = [
             {
-                "regex": "[^ ]+\*",
-                "message": "*号前缺少空格",
-                "score":0.5
+                "regex": "[^ ]+\*", # 匹配正则
+                "message": "*号前缺少空格", # 错误信息
+                "score":0.5  # 扣0.5分
             }
         ]
         return ret
@@ -64,7 +62,7 @@ class Config:
             {
                 "regex":".*strong.*NSString.*",
                 "message":"NSString 要用 copy 不能用 strong",
-                "level":3,
+                "level":3, # 警告等级 3 ，为错误
                 "score":5,
             }
         ]
@@ -179,4 +177,3 @@ class Config:
         """
         ret = self.config[type]
         return ret
-

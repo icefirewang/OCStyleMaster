@@ -144,10 +144,16 @@ def main():
         return
 
     GlobalData().targetPath = filePath
-    GlobalData()._configPath = args.config
 
-    if create_output_file():
-        GlobalData()
+
+    customerConfigPath = args.config
+    if customerConfigPath is not None:
+        if os.path.isfile(customerConfigPath) == False:
+            print("您输入的配置文件不存在")
+            return
+        else:
+            GlobalData()._configPath = args.config
+
 
     analyze_path(filePath)
     print("DONE !!!")

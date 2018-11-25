@@ -40,7 +40,7 @@ class BlockBase:
         return []
 
     def analyze_by_config(self):
-        config =  GlobalData().get_config()
+        config =  GlobalData().config()
         defScore = config.defaultScore
         for name in self.__class__.config_rule_names():
             rules = config.get_rules(name)
@@ -60,9 +60,10 @@ class BlockBase:
                 message = r["message"]
                 max = 0 if not "max" in r else r["max"]  # 超过 max 才算有问题
                 score = defScore if "score" not in r else r["score"]  #  应扣分数
-                type = ErrorType.warn
-                if "type" in r:
-                    type = r["type"]
+                level = ErrorType.warn
+                if "level" in r:
+                    level = r["level"]
+                    level = ErrorType(level)
                 results = RegexUtil.full_search(regex, self.content())
                 count = len(results)
                 if count <= max:
@@ -71,7 +72,7 @@ class BlockBase:
                     start = self.range.start + result[0]
                     end = self.range.start + result[1]
                     range = Range(start,end)
-                    err = self.create_error(range, type, message,score)
+                    err = self.create_error(range, level, message,score)
                     self.add_error_obj(err)
                     if max > 0:
                         break
@@ -79,18 +80,19 @@ class BlockBase:
     def check_func_comments(self):
         import OCStyleMaster.models.blocks.funcH as Func
         import OCStyleMaster.models.blocks.comment as Comment
+        score = GlobalData().config().headerFileLackComment
         index = -1
         for c in self.children:
             index += 1
             if isinstance(c, Func.FuncH) == False:
                 continue
             if index == 0:
-                err = self.create_error(c.range, ErrorType.error, "函数缺少注释")
+                err = self.create_error(c.range, ErrorType.error, "函数缺少注释",score)
                 self.add_error_obj(err)
                 continue
             pre = self.children[index - 1]
             if isinstance(pre, Comment.Comment_N) == False:
-                err = self.create_error(c.range, ErrorType.error, "函数缺少注释")
+                err = self.create_error(c.range, ErrorType.error, "函数缺少注释",score)
                 self.add_error_obj(err)
                 continue
 
