@@ -5,7 +5,7 @@ import subprocess
 
 path = __file__
 
-version = "0.2.1"
+version = "0.2.3"
 
 
 def parent_path(path):

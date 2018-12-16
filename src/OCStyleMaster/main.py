@@ -88,6 +88,16 @@ def create_output_file():
         os.makedirs(path)
         return True
 
+def check_config_exist(path):
+    if os.path.exists(path) == False:
+        return True
+    sure = input("{} 已存在,是否覆盖？ y/n:".format(path))
+    if sure.lower() == "y":
+        return True
+    elif sure.lower() == "n":
+        return False
+    else:
+        return check_config_exist(path)
 
 
 def export_config(path):
@@ -101,10 +111,10 @@ def export_config(path):
     targetPath = None
     if os.path.isdir(path):
         targetPath = os.path.join(path,"config.py")
-    elif os.path.isfile(path):
-        targetPath = path
+        if check_config_exist(targetPath) == False:
+            return
     else:
-        print("请输入正确路径")
+        print("请输入正确文件夹路径")
 
     parentPath = os.path.split(path)[0]
     if os.path.exists(parentPath) == False:
